@@ -1,0 +1,395 @@
+#workskin .messenger {
+  max-width: 350px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+#workskin .Mbody {
+  background-color: #FFFFFF;
+  display: table;
+  padding-left: .5em;
+  padding-right: .5em;
+  color: #000000;
+}
+
+#workskin .Mheader {
+  min-width: 350px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-bottom: -2em;
+  text-align: center;
+  text-transform: capitalize;
+  display: table;
+}
+
+#workskin .hide {
+  display: none;
+}
+
+#workskin .emojisize {
+  font-size: 1.5em;
+}
+
+#workskin .Mtime {
+  min-width: 345px;
+  color: #999999;
+  font-size: .75em;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-top: -.5em;
+  margin-bottom: -.5em;
+  text-align: center;
+  display: table;
+}
+
+#workskin .Mleftname {
+  color: #999999;
+  font-size: .75em;
+  padding-bottom: 0;
+  padding-top: -0.5em;
+  margin-left: .75em;
+  text-align: left;
+  display: table;
+  clear: both;
+}
+
+#workskin .Mrightname {
+  color: #999999;
+  font-size: .75em;
+  padding-bottom: 0;
+  padding-top: -0.5em;
+  margin-right: .75em;
+  text-align: right;
+  float: right;
+  display: table;
+  clear: both;
+}
+
+#workskin .MleftTan,
+#workskin .MleftTan1,
+#workskin .MleftTan2,
+#workskin .MleftTan3,
+#workskin .MrightTan,
+#workskin .MrightTan1,
+#workskin .MrightTan2,
+#workskin .MrightTan3 {
+  color: #000000;
+  background: #f1f0f0;
+}
+
+#workskin .MleftBB,
+#workskin .MleftBB1,
+#workskin .MleftBB2,
+#workskin .MleftBB3,
+#workskin .MrightBB,
+#workskin .MrightBB1,
+#workskin .MrightBB2,
+#workskin .MrightBB3 {
+  color: #FFFFFF;
+  background: #3D91CC;
+}
+
+#workskin .MleftT,
+#workskin .MleftT1,
+#workskin .MleftT2,
+#workskin .MleftT3,
+#workskin .MrightT,
+#workskin .MrightT1,
+#workskin .MrightT2,
+#workskin .MrightT3 {
+  color: #FFFFFF;
+  background: #67A4A8;
+}
+
+#workskin .MleftY,
+#workskin .MleftY1,
+#workskin .MleftY2,
+#workskin .MleftY3,
+#workskin .MrightY,
+#workskin .MrightY1,
+#workskin .MrightY2,
+#workskin .MrightY3 {
+  color: #FFFFFF;
+  background: #CFAE55;
+}
+
+#workskin .MleftR,
+#workskin .MleftR1,
+#workskin .MleftR2,
+#workskin .MleftR3,
+#workskin .MrightR,
+#workskin .MrightR1,
+#workskin .MrightR2,
+#workskin .MrightR3 {
+  color: #FFFFFF;
+  background: #AB4950;
+}
+
+#workskin .MleftL,
+#workskin .MleftL1,
+#workskin .MleftL2,
+#workskin .MleftL3,
+#workskin .MrightL,
+#workskin .MrightL1,
+#workskin .MrightL2,
+#workskin .MrightL3 {
+  color: #FFFFFF;
+  background: #9A78B3;
+}
+
+#workskin .MleftG,
+#workskin .MleftG1,
+#workskin .MleftG2,
+#workskin .MleftG3,
+#workskin .MrightG,
+#workskin .MrightG1,
+#workskin .MrightG2,
+#workskin .MrightG3 {
+  color: #FFFFFF;
+  background: #739E7D;
+}
+
+#workskin .MleftO,
+#workskin .MleftO1,
+#workskin .MleftO2,
+#workskin .MleftO3,
+#workskin .MrightO,
+#workskin .MrightO1,
+#workskin .MrightO2,
+#workskin .MrightO3 {
+  color: #FFFFFF;
+  background: #D18C5E;
+}
+
+#workskin .MleftLR,
+#workskin .MleftLR1,
+#workskin .MleftLR2,
+#workskin .MleftLR3,
+#workskin .MrightLR,
+#workskin .MrightLR1,
+#workskin .MrightLR2,
+#workskin .MrightLR3 {
+  color: #FFFFFF;
+  background: #CF8484;
+}
+
+#workskin .MleftPur,
+#workskin .MleftPur1,
+#workskin .MleftPur2,
+#workskin .MleftPur3,
+#workskin .MrightPur,
+#workskin .MrightPur1,
+#workskin .MrightPur2,
+#workskin .MrightPur3 {
+  color: #FFFFFF;
+  background: #73659C;
+}
+
+#workskin .MleftLB,
+#workskin .MleftLB1,
+#workskin .MleftLB2,
+#workskin .MleftLB3,
+#workskin .MrightLB,
+#workskin .MrightLB1,
+#workskin .MrightLB2,
+#workskin .MrightLB3 {
+  color: #FFFFFF;
+  background: #82A1B8;
+}
+
+#workskin .MleftPi,
+#workskin .MleftPi1,
+#workskin .MleftPi2,
+#workskin .MleftPi3,
+#workskin .MrightPi,
+#workskin .MrightPi1,
+#workskin .MrightPi2,
+#workskin .MrightPi3 {
+  background: #AB7189;
+  color: #FFFFFF;
+}
+
+#workskin .MleftTan,
+#workskin .MleftBB,
+#workskin .MleftLB,
+#workskin .MleftT,
+#workskin .MleftY,
+#workskin .MleftR,
+#workskin .MleftL,
+#workskin .MleftG,
+#workskin .MleftO,
+#workskin .MleftLR,
+#workskin .MleftPur,
+#workskin .MleftPi {
+  float: left;
+  margin: 0 0 0.5em;
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MleftTan1,
+#workskin .MleftBB1,
+#workskin .MleftLB1,
+#workskin .MleftT1,
+#workskin .MleftY1,
+#workskin .MleftR1,
+#workskin .MleftL1,
+#workskin .MleftG1,
+#workskin .MleftO1,
+#workskin .MleftLR1,
+#workskin .MleftPur1,
+#workskin .MleftPi1 {
+  float: left;
+  margin: 0 0 0.15em;
+  border-radius: 1.5em;
+  border-bottom-left-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MleftTan2,
+#workskin .MleftBB2,
+#workskin .MleftLB2,
+#workskin .MleftT2,
+#workskin .MleftY2,
+#workskin .MleftR2,
+#workskin .MleftL2,
+#workskin .MleftG2,
+#workskin .MleftO2,
+#workskin .MleftLR2,
+#workskin .MleftPur2,
+#workskin .MleftPi2 {
+  float: left;
+  margin: 0 0 0.15em;
+  border-radius: 1.5em;
+  border-top-left-radius: 0.25em;
+  border-bottom-left-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MleftTan3,
+#workskin .MleftBB3,
+#workskin .MleftLB3,
+#workskin .MleftT3,
+#workskin .MleftY3,
+#workskin .MleftR3,
+#workskin .MleftL3,
+#workskin .MleftG3,
+#workskin .MleftO3,
+#workskin .MleftLR3,
+#workskin .MleftPur3,
+#workskin .MleftPi3 {
+  float: left;
+  margin: 0 0 0.5em;
+  border-radius: 1.5em;
+  border-top-left-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MrightTan,
+#workskin .MrightBB,
+#workskin .MrightLB,
+#workskin .MrightT,
+#workskin .MrightY,
+#workskin .MrightR,
+#workskin .MrightL,
+#workskin .MrightG,
+#workskin .MrightO,
+#workskin .MrightLR,
+#workskin .MrightPur,
+#workskin .MrightPi {
+  float: right;
+  margin: 0 0 0.5em;
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MrightTan1,
+#workskin .MrightBB1,
+#workskin .MrightLB1,
+#workskin .MrightT1,
+#workskin .MrightY1,
+#workskin .MrightR1,
+#workskin .MrightL1,
+#workskin .MrightG1,
+#workskin .MrightO1,
+#workskin .MrightLR1,
+#workskin .MrightPur1,
+#workskin .MrightPi1 {
+  float: right;
+  margin: 0 0 0.15em;
+  border-radius: 1.5em;
+  border-bottom-right-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MrightTan2,
+#workskin .MrightBB2,
+#workskin .MrightLB2,
+#workskin .MrightT2,
+#workskin .MrightY2,
+#workskin .MrightR2,
+#workskin .MrightL2,
+#workskin .MrightG2,
+#workskin .MrightO2,
+#workskin .MrightLR2,
+#workskin .MrightPur2,
+#workskin .MrightPi2 {
+  float: right;
+  margin: 0 0 0.15em;
+  border-radius: 1.5em;
+  border-top-right-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .MrightTan3,
+#workskin .MrightBB3,
+#workskin .MrightLB3,
+#workskin .MrightT3,
+#workskin .MrightY3,
+#workskin .MrightR3,
+#workskin .MrightL3,
+#workskin .MrightG3,
+#workskin .MrightO3,
+#workskin .MrightLR3,
+#workskin .MrightPur3,
+#workskin .MrightPi3 {
+  float: right;
+  margin: 0 0 0.5em;
+  border-radius: 1.5em;
+  border-top-right-radius: 0.25em;
+  padding: 0.5em 1em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
